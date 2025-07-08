@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+h1 {
+  margin: 15px 0;
+  font-size: 28px;
+}
+
+.about {
+  color: #555;
+  font-size: 18px;
+}
+
+.skills {
+  list-style: none;
+  padding: 0;
+}
+
+.skills li {
+  background: #eee;
+  margin: 5px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.links a {
+  display: inline-block;
+  margin: 10px;
+  text-decoration: none;
+  color: #fff;
+  background: #0077b5;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.links a:hover {
+  background: #005582;
+}
